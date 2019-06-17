@@ -1,0 +1,31 @@
+$heading: 'Rubik Mono One', sans-serif;
+$font: 'Merriweather', serif;
+
+body, p {
+  font-family: $font;
+  color: #222;
+}
+
+.uk-light > p {
+  color: #fff;
+}
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+  font-family: $heading;
+}
+
+ul.uk-subnav {
+  > li {
+    > a {
+      font-family: $heading;
+    }
+  }
+}
+
+.bs-font-small {
+  font-size: 70%;
+}
+
+h1.bs-logo {
+  line-height: 1;
+}
